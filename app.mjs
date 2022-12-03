@@ -30,7 +30,6 @@ app.get('/search/:searchId/:searchResult', (req, res) => {
     const {searchId, searchResult} = req.params
     res.status(200).send(`${searchId} & ${searchResult}`)
 })
-
 // 'search/4517/Result'
 
 app.post('/', (req, res) => {
